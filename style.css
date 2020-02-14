@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+
 
 body {
     padding: 0;
@@ -30,21 +30,20 @@ body {
 .parent__word__heading > h1 {
      padding-bottom: 45px;
      font-size: 40px;
-     font-family: 'Roboto', sans-serif;
-     line-height: -100px;
+     font-family: 'gelionsemi_bold';
      /* font-family: ; */
 }
 
-u {
-    text-decoration: none;
+b {
     border-bottom: 10px solid #F7941D;
-    box-shadow: inset 0 0px 0 white, inset 0 -1px 0 #F7941D;
+    padding: 0 0 4px;
 }
 
 
 .parent__word__heading > p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     padding-bottom: 40px;
+    font-weight: lighter;
 }
 
 .parent__word__heading > button {
@@ -90,6 +89,17 @@ u {
     text-align: center;
   }
   
+  .footer {
+      background-color: grey;
+      text-align: right;
+  }
+
+  .footer > p {
+    display: inline-block;
+    padding-left: 30px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+  }
 
   @media only screen and (max-width: 600px) {
     .parent {
